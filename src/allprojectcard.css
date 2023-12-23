@@ -1,0 +1,43 @@
+.project_container_all{
+ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  margin-top: 20px;
+  border-radius: 12px;
+  background: radial-gradient(
+    1415.25% 155.56% at 107.08% -4.94%,
+    rgba(196, 197, 199, 0.218) 0%,
+    rgba(240, 240, 240, 0) 100%
+  );
+box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.40);
+  }
+  .project_container_all_left{
+    display: flex;
+    width: 30%;
+  }
+  .project_container_all_left > img{
+   
+        margin: 20px;
+        width: 200px;
+        object-fit: contain;
+     border-radius: 5px;
+    
+  }
+  .project_container_all_right{
+    width: 70%;
+  }
+ 
+ h6{
+   padding: 20px;
+    width: 10%;
+    font-size: 16px;
+     
+ }
+ 
+ p{
+    text-align:start;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 14px;
+ }

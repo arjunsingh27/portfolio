@@ -1,0 +1,38 @@
+ 
+.project_container_top3 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 300px;
+}
+
+.project_row {
+ margin: 50px;
+ margin-left: 40px;
+}
+h3{
+text-align: center;
+padding: 10px;
+color: #000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.project_container_all_page{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+.item{
+  width: 100%;
+  margin: 100px;
+ 
+}
+
+ 

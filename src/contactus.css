@@ -1,0 +1,70 @@
+.contactus_container {
+  display: flex;
+  
+  width: 100%;
+  height: 70vh;
+
+  justify-content: center;
+  /* margin-left: 150px;
+  margin-top: 30px; */
+}
+.contactus_inner_container {
+  width: 456px;
+  height: 573px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  box-shadow: 0px 0px 22px 4px rgba(0, 0, 0, 0.53);
+}
+.contactus_inner_container > h3 {
+  color: #383838;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: Barlow;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 9.45px;
+}
+form {
+  margin: 50px;
+}
+label {
+  width: 75px;
+  height: 25px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Abhaya Libre;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.68px;
+}
+input {
+  width: 340px;
+  height: 62px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px #000;
+  margin-bottom: 5px;
+}
+textarea {
+  width: 340px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px #000;
+}
+button{
+    width: 151px;
+height: 62px;
+border-radius: 31px;
+border: 1px solid #000;
+background: #0B8AFF;
+box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
