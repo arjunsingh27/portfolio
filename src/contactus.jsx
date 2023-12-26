@@ -17,7 +17,7 @@ function ContactUs() {
                     <label htmlFor="message">Message:</label><br />
                     <textarea id="message" name="message" rows="4" required></textarea><br />
                     
-                    <button type="submit" value="Submit" >Submit</button>
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </div>
