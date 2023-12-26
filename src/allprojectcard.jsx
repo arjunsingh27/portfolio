@@ -1,7 +1,7 @@
 import React from 'react';
 import './allprojectcard.css';
 
-function allprojectcard({ id, projecttitle, detail, image }) {
+function allprojectcard({ id, projecttitle, detail, image,datecreated }) {
   return (
     <div className="project_container_all">
       <div className="project_container_all_left">
@@ -10,6 +10,7 @@ function allprojectcard({ id, projecttitle, detail, image }) {
       </div>
       <div className="project_container_all_right">
         <h3>{projecttitle}</h3>
+        <span>Date Created :{datecreated}</span>
       
         <p>{detail}</p>
       </div>

@@ -6,7 +6,7 @@ function ContactUs() {
         <div className="contactus_container">
             <div className="contactus_inner_container">
                 <h3>Contact Us</h3>
-                <form action="/submit-contact-form" method="post">
+                <form action="/contactus" method="post">
                     <label htmlFor="name">Name:</label>
                     <br />
                     <input type="text" id="name" name="name" required /><br />

@@ -34,5 +34,6 @@ text-transform: uppercase;
   margin: 100px;
  
 }
-
- 
+a{
+  text-decoration: none;
+}

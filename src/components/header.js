@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/arjunsingh/Downloads/Btech/V_Sem/Projects/arjuns/src/components/header.css";
+import "./header.css";
 import Avatar from '@mui/material/Avatar';
 import {BrowserRouter as Router, Switch, Route,Link} from "react-router-dom";
  

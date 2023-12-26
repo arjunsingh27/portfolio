@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "/Users/arjunsingh/Downloads/Btech/V_Sem/Projects/arjuns/src/components/header.js";
+import Header from "./components/header.js";
 import "./about.css";
 
 function about() {
