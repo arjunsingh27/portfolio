@@ -6,7 +6,9 @@ function ContactUs() {
         <div className="contactus_container">
             <div className="contactus_inner_container">
                 <h3>Contact Us</h3>
-              <form name="contact" netlify>
+                <form name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact" /> {/* Required for Netlify */}
+                    
                     <label htmlFor="name">Name:</label>
                     <br />
                     <input type="text" id="name" name="name" required /><br />
