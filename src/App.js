@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Header from "./components/header.js";
 import Home from "./home.jsx";
 import About from "./about.jsx";

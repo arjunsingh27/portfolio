@@ -11,7 +11,7 @@ function ProjectCard({ id, projecttitle,detail,image}) {
       </div>
       <div>
       <img src={image} alt="Project_image" />
-      {console.log(image)}
+      {/* {console.log(image)} */}
     </div>
     </div>
   );
