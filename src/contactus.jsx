@@ -10,7 +10,7 @@ function ContactUs() {
                     name="contactus"
                     method="POST"
                     data-netlify="true"
-                    action="/" // Redirects to a success page
+                    action="/home" // Redirects to a success page
                 >
                     <input type="hidden" name="form-name" value="contactus" /> {/* Required for Netlify */}
                     <label htmlFor="name">Name:</label><br />
