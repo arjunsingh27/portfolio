@@ -10,7 +10,7 @@ function Header(){
 
         <div className="header">
         <div className="header_logo">
-        <Link to="/">
+        <Link to="/home">
         <Avatar alt="Arjun Singh" src="./header_logo.jpg" />
         </Link>
         </div>
