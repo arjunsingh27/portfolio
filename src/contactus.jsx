@@ -3,29 +3,26 @@ import './contactus.css';
 
 function ContactUs() {
     return (
-        <div className="contactus_container">
-            <div className="contactus_inner_container">
-                <h3>Contact Us</h3>
-                <form
-                    name="contactus"
-                    method="POST"
-                    data-netlify="true"
-                    action="/" // Redirects to a success page
-                >
-                    <input type="hidden" name="form-name" value="contactus" /> {/* Required for Netlify */}
-                    <label htmlFor="name">Name:</label><br />
-                    <input type="text" id="name" name="name" required /><br />
-                    
-                    <label htmlFor="email">Email:</label><br />
-                    <input type="email" id="email" name="email" required /><br />
-                    
-                    <label htmlFor="message">Message:</label><br />
-                    <textarea id="message" name="message" rows="4" required></textarea><br />
-                    
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </div>
+        <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
     );
 }
 
