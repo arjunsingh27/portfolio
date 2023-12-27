@@ -14,8 +14,8 @@ function home() {
     <div className="home_container">
       <div className="home_container_left">
         <div className="home_container_left_heading">
-          <h2>Hi!, I'm A rjun singh</h2>
-          <h2>Mern Stack</h2>
+          <h2>Hi!, I'm Arjun Singh</h2>
+          <h2>Full Stack</h2>
           <h1>Developer</h1>
           <div className="home_container_left_heading_button">
           <a
