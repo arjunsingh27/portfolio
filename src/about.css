@@ -22,3 +22,21 @@
     letter-spacing: 2px;
     font-family: 'Noto Sans JP', sans-serif;
 }
+@media (max-width: 768px) {
+    .about_container{
+     
+        height: 100vh;
+        margin:20px;
+    }
+    .about_container > p{
+        
+        font-size: 1rem;
+        
+    }
+    .about_container > h4{
+   
+        font-size: 2rem;
+        
+    } 
+     
+}

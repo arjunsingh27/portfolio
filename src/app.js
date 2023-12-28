@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/header.js";
+import Header from "./components/nav/header.js";
 import Home from "./home.jsx";
 import About from "./about.jsx";
 import Project from "./project.jsx";
@@ -25,9 +25,9 @@ function App() {
             <Contactus />
           </Route>
           {/* Default Route - Redirect to Home */}
-          <Route exact path="/">
+          {/* <Route exact path="/">
             <Redirect to="/home" />
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>

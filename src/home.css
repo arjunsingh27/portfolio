@@ -22,7 +22,7 @@ justify-content: center;
 .home_container_left_heading h2{
 color: #000;
 font-family: Inter;
-font-size: 20px;
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 200;
 line-height: normal;
@@ -33,7 +33,7 @@ margin: 20px;
 .home_container_left_heading h1{
     color: #000;
     font-family: Inter;
-    font-size: 40px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -51,4 +51,32 @@ margin: 20px;
 background-color: rgb(110, 159, 53);
 width: 50%;
 height: 80vh;
+}
+@media (max-width: 768px) {
+    
+    .home_container_left{
+    width: 100%;
+    }
+    .home_container_left_heading h2{
+        color: #000;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+        letter-spacing: 8.6px;
+        text-transform: uppercase;
+        margin: 20px;
+        }
+        .home_container_left_heading h1{
+            color: #000;
+            font-family: Inter;
+            font-size: 2rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 18.8px;
+            text-transform: uppercase;
+            margin: 18px;
+        }
 }
