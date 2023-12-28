@@ -25,9 +25,9 @@ function App() {
             <Contactus />
           </Route>
           {/* Default Route - Redirect to Home */}
-          {/* <Route exact path="/">
+          <Route exact path="/">
             <Redirect to="/home" />
-          </Route> */}
+          </Route> 
         </Switch>
       </div>
     </Router>
