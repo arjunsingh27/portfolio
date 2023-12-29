@@ -5,42 +5,42 @@ const projectsdetail=[
         projectdescription:"The Amazon Clone app is a replica of the popular e-commerce platform, Amazon. It offers users a seamless shopping experience with features closely mirroring those of the original site. Users can browse through a wide array of products, add items to their cart, and proceed to a secure checkout process.",
         projectimage:"./Amazonclone.png",
         url:"https://github.com/arjunsingh27/AmazonClone",
-        datecreated:"15/10/2003"
+        datecreated:"Nov 17,2023"
     },
     {
         id:2,
         projecttitle:"Wheather Report",
-        projectdescription:"This is project 2",
+        projectdescription:"The Weather Report App delivers accurate and real-time weather information based on the city entered. Users can easily access up-to-date details",
         projectimage:"./WeatherReport.png",
         url:"https://weatherreport-w88p.onrender.com/",
-        datecreated:"15/10/2003"
+        datecreated:"Jul 8,2023"
     }
     ,
     {
         id:3,
         projecttitle:"Todolist",
-        projectdescription:"This is project 3",
+        projectdescription:"The Todo List App is a practical and efficient tool for organizing tasks and managing daily activities. Users can create and delete their to-do lists",
         projectimage:"Todolist.png",
         url:"https://to-do-list-g6l0.onrender.com/",
-        datecreated:"15/10/2003"
+        datecreated:"Jul 13,2023"
     }
     ,
     {
         id:4,
-        projecttitle:"Todolist",
-        projectdescription:"This is project 3",
-        projectimage:"Todolist.png",
-        url:"https://google.com",
-        datecreated:"15/10/2003"
+        projecttitle:"Analog Clock",
+        projectdescription:"An Analog Clock App is a digital representation of the traditional clock with hour, minute, and second hands.",
+        projectimage:"https://png.pngtree.com/png-vector/20230131/ourmid/pngtree-analog-walll-watch-clipart-in-transparent-background-png-image_6575373.png",
+        url:"https://arjunsingh27/AnalogClock",
+        datecreated:"Jun 19,2023"
     }
     ,
     {
         id:5,
-        projecttitle:"Todolist",
-        projectdescription:"This is project 3",
-        projectimage:"Todolist.png",
-        url:"https://google.com",
-        datecreated:"15/10/2003"
+        projecttitle:"Note Wizard",
+        projectdescription:"I built a website in my Diploma to assist my classmates in accessing notes and timetables.",
+        projectimage:"https://drive.google.com/file/d/1pSesu2uEv7hApuyD6MvuIPSHgemGmJ4x/view?usp=share_link",
+        url:"https://mellifluous-tartufo-d79aad.netlify.app",
+        datecreated:"Mar 23,2021"
     }
 
     
