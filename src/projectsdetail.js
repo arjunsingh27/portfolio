@@ -38,7 +38,7 @@ const projectsdetail=[
         id:5,
         projecttitle:"Note Wizard",
         projectdescription:"I built a website in my Diploma to assist my classmates in accessing notes and timetables.",
-        projectimage:"https://drive.google.com/file/d/1pSesu2uEv7hApuyD6MvuIPSHgemGmJ4x/view?usp=share_link",
+        projectimage:"https://play-lh.googleusercontent.com/36szRvmqeewn6fxpx9V88zhpPU3c84Im9zjAFPZl-cReiztnAD6cn0jSnWBGsNNdPsU",
         url:"https://mellifluous-tartufo-d79aad.netlify.app",
         datecreated:"Mar 23,2021"
     }
