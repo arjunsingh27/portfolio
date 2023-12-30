@@ -40,7 +40,7 @@ function home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <TwitterIcon style={{ color: "red", fontSize: 40 }} />
+              <TwitterIcon style={{ color: "blue", fontSize: 40 }} />
             </a>
           </div>
         </div>
