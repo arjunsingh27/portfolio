@@ -6,7 +6,7 @@ function about() {
     <div className="about_container">
     <h4>Hello! I'm Arjun Singh</h4>
     <p className="about_me">
-       a MERN Stack Developer with a passion for
+       a Full Stack Developer with a passion for
       technology that dates back to my childhood. It all began in the 3rd
       standard when I first delved into the world of PC Logo. <br/><br/>Since then, my
       fascination with computers and technology has only grown stronger. I
