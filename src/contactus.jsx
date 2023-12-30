@@ -1,32 +1,81 @@
 import React from "react";
+import React, { useState } from 'react';
 import './contactus.css';
 
-function ContactUs() {
-    return (
-        <div className="contactus_container">
-            <div className="contactus_inner_container">
-                <h3>Contact Us</h3>
-                <form
-                    name="contactus"
-                    method="POST"
-                    data-netlify="true"
-                    action="/home" // Redirects to a success page
-                >
-                    <input type="hidden" name="form-name" value="contactus" /> {/* Required for Netlify */}
-                    <label htmlFor="name">Name:</label><br />
-                    <input type="text" id="name" name="name" required /><br />
+const ContactUs = () => {
+  const [alertMessage, setAlertMessage] = useState('');
 
-                    <label htmlFor="email">Email:</label><br />
-                    <input type="email" id="email" name="email" required /><br />
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
 
-                    <label htmlFor="message">Message:</label><br />
-                    <textarea id="message" name="message" rows="4" required></textarea><br />
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </div>
-    );
-}
+  const showAlert = (message) => {
+    setAlertMessage(message);
+
+    
+    setTimeout(() => {
+      setAlertMessage('');
+    }, 3000);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('http://localhost:4000/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+      
+        showAlert('Form data sent successfully');
+        
+      } else {
+        console.error('Failed to send form data');
+     
+        showAlert('Failed to send form data. Please try again.');
+        
+      }
+    } catch (error) {
+      console.error('Error:', error);
+  
+      showAlert('An unexpected error occurred. Please try again.');
+    }
+  };
+
+  return (
+    <div className='contactus_container'>
+    <div className='contactus_inner_container'>
+      {alertMessage && <div className="alert custom-alert">{alertMessage}</div>}
+      <form onSubmit={handleSubmit}>
+        <label>
+          Name:
+          <input type="text" name="name" value={formData.name} onChange={handleChange} />
+        </label>
+        <label>
+          Email:
+          <input type="email" name="email" value={formData.email} onChange={handleChange} />
+        </label>
+        <label>
+          Message:
+          <textarea name="message" value={formData.message} onChange={handleChange} />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    </div>
+  );
+};
+
 
 export default ContactUs;
