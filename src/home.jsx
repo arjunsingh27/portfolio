@@ -2,6 +2,7 @@ import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import TwitterIcon from '@mui/icons-material/Twitter';
 import "./home.css";
 import { pink } from "@mui/material/colors";
 function home() {
@@ -33,6 +34,13 @@ function home() {
               rel="noopener noreferrer"
             >
               <YouTubeIcon style={{ color: "red", fontSize: 40 }} />
+            </a>
+            <a
+              href="https://twitter.com/arjun_jaat8_"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <TwitterIcon style={{ color: "red", fontSize: 40 }} />
             </a>
           </div>
         </div>
