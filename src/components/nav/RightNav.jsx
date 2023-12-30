@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const UL = styled.ul`
   list-style: none;
   display: flex;
+  align-items: center;
   flex-flow: row nowrap;
 
   li {
