@@ -1,8 +1,7 @@
-import React from "react";
 import React, { useState } from 'react';
 import './contactus.css';
 
-const ContactUs = () => {
+const MyForm = () => {
   const [alertMessage, setAlertMessage] = useState('');
 
   const [formData, setFormData] = useState({
@@ -77,5 +76,4 @@ const ContactUs = () => {
   );
 };
 
-
-export default ContactUs;
+export default MyForm;
