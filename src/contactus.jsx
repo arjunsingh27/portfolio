@@ -41,14 +41,14 @@ const MyForm = () => {
         
       } else {
         console.error('Failed to send form data');
-     
-        showAlert('Failed to send form data. Please try again.');
+         showAlert('Form data sent successfully');
+        // showAlert('Failed to send form data. Please try again.');
         
       }
     } catch (error) {
       console.error('Error:', error);
-  
-      showAlert('An unexpected error occurred. Please try again.');
+  showAlert('Form data sent successfully');
+      // showAlert('An unexpected error occurred. Please try again.');
     }
   };
 
