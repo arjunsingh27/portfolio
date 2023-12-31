@@ -27,7 +27,7 @@ const MyForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://dashboard.render.com/static/srv-cm8o65ud3nmc73cje1hg/deploys/dep-cm8o9jed3nmc73b0b0f0/', {
+      const response = await fetch('https://portfoliobackend-xa8q.onrender.com/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
