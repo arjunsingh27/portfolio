@@ -5,8 +5,8 @@
   height: 70vh;
 
   justify-content: center;
-  /* margin-left: 150px;
-  margin-top: 30px; */
+  /* margin-left: 150px; */
+  margin-top: 30px;
 }
 .contactus_inner_container {
   width: 456px;
@@ -77,4 +77,26 @@ box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   text-align: center;
   /* Add any additional styles as needed */
+}
+@media (max-width:768px){
+  .contactus_container {
+    
+    margin-top: 20px;
+  }
+  .contactus_inner_container {
+    width: 320px;
+    height: 500px;
+     
+  }
+ 
+  
+  input {
+    width: 200px;
+     
+  }
+  textarea {
+    width: 200px;
+    
+  }
+  
 }
