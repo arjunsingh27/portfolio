@@ -27,7 +27,7 @@ const MyForm = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://portfoliobackend-xa8q.onrender.com/contact', {
+      const response = await fetch('https://portfoliobackendarjunsingh27.onrender.com/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -41,14 +41,14 @@ const MyForm = () => {
         
       } else {
         console.error('Failed to send form data');
-         showAlert('Form data sent successfully');
-        // showAlert('Failed to send form data. Please try again.');
+         // showAlert('Form data sent successfully');
+        showAlert('Failed to send form data. Please try again.');
         
       }
     } catch (error) {
       console.error('Error:', error);
-  showAlert('Form data sent successfully');
-      // showAlert('An unexpected error occurred. Please try again.');
+  // showAlert('Form data sent successfully');
+      showAlert('An unexpected error occurred. Please try again.');
     }
   };
 
