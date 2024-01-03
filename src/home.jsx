@@ -1,5 +1,6 @@
 import React from "react";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import GithubIcon from "@mui/icons-material/Github";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -15,11 +16,11 @@ function home() {
           <h1>Developer</h1>
           <div className="home_container_left_heading_button">
             <a
-              href="https://www.instagram.com/chaudhary____arjun/"
+              href="https://github/arjunsingh27/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <InstagramIcon style={{ color: "pink", fontSize: 40 }} />
+              <GithubIcon style={{ color: "black", fontSize: 40 }} />
             </a>
             <a
               href="https://www.linkedin.com/in/arjun-singh-27-/"
