@@ -1,5 +1,5 @@
 import React from "react";
-import GithubIcon from "@mui/icons-material/Github";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -20,7 +20,7 @@ function home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <GithubIcon style={{ color: "black", fontSize: 40 }} />
+              <GitHubIcon style={{ color: "black", fontSize: 40 }} />
             </a>
             <a
               href="https://www.linkedin.com/in/arjun-singh-27-/"
