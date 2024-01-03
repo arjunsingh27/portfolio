@@ -15,9 +15,7 @@ function home() {
           <h2>Full Stack</h2>
           <h1>Developer</h1>
           <div className="home_container_left_heading_button">
-            <a
-              href="https://github/arjunsingh27/"
-              target="_blank"
+            <a           href="https://github.com/arjunsingh27"             target="_blank"
               rel="noopener noreferrer"
             >
               <GitHubIcon style={{ color: "black", fontSize: 40 }} />
