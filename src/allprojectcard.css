@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 200px;
   margin-top: 20px;
   border-radius: 12px;
   background: rgb(2,0,36);
@@ -14,6 +15,7 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 .project_container_all_left {
   display: flex;
   width: 30%;
+   
 }
 .project_container_all_left > img {
   margin: 20px;
@@ -25,6 +27,7 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   margin: 10px;
   height: 100%;
   width: 70%;
+  overflow: hidden;
 }
 
 h6 {
@@ -81,8 +84,15 @@ a {
   }
   .project_container_all_right {
     margin: 10px;
-    height: 100%;
+    height: 180px;
     width: 70%;
+    overflow: scroll;
+    scroll-behavior: auto;
+  }
+  .project_container_all_right span{
+    margin: 0px;
+    width: 200px;
+    font-size: small;
   }
   
   h6 {
