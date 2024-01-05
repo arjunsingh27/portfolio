@@ -37,14 +37,17 @@ a {
 }
 
 @media (max-width: 768px) {
-  .project_container_top3 {
+  .project_container_top3 {  
+    width: 95vw;
     height: 200px;
-    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
   }
 
   .project_row {
-    margin: 2px;
-    margin-left: 20px;
+    margin: 10px;
+     
   }
   h3 {
     padding: 10px;
