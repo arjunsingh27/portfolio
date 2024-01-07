@@ -4,7 +4,7 @@ const projectsdetail=[
         projecttitle:"Amazon Clone",
         projectdescription:"The Amazon Clone app is a replica of the popular e-commerce platform, Amazon. It offers users a seamless shopping experience with features closely mirroring those of the original site. Users can browse through a wide array of products, add items to their cart, and proceed to a secure checkout process.",
         projectimage:"./Amazonclone.png",
-        url:"https://github.com/arjunsingh27/AmazonClone",
+        url:"https://github.com/arjunsingh27/-Amazon-Clone",
         datecreated:"Nov 17,2023"
     },
     {
